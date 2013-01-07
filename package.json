@@ -1,0 +1,19 @@
+{
+    "name": "grib2js",
+    "description": "Node.js grib2 files reader",
+    "version": "0.0.1",
+    "private": false,
+    "engines": {
+        "node": "0.8.x",
+        "npm":  "1.1.x"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "mocha": "~1.3.0",
+        "should": "~1.1.0"
+    },
+    "scripts": {
+        "test": "mocha"
+    }
+}
