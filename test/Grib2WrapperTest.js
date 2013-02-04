@@ -1,7 +1,7 @@
 var should  = require("should")
 
 var Grib2   = require("../lib/grib/Grib2Wrapper.js")
-var grib2   = new Grib2(__dirname + "/data/nmm.grb2f00", "/home/hostalerye/Téléchargements/grib2/wgrib2/wgrib2")
+var grib2   = new Grib2(__dirname + "/data/nmm.grb2f00", "/root/grib2/wgrib2/wgrib2")
 
 describe("Verifying if a point is in an area", function() {
 
@@ -19,7 +19,7 @@ describe("Gathering data from file", function() {
 
     it("should work", function(done) {
         this.timeout(60000)
-        grib2.getDataFromFile("/home/hostalerye/Documents/ICC/PE/grib2js/out.csv", [{lat:44.653024,long:-1.625977}, {lat:44.933696,long:3.164063}, {lat:42.55308,long:3.339844}, {lat:43.325178,long:-2.285156}], function(err, res) {
+        grib2.getDataFromFile("/root/artemisia/grib2js/test/data/out.csv", [{lat:44.653024,long:-1.625977}, {lat:44.933696,long:3.164063}, {lat:42.55308,long:3.339844}, {lat:43.325178,long:-2.285156}], function(err, res) {
                 if(err) throw err
                 done()
             }
