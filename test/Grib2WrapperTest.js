@@ -1,7 +1,7 @@
 var should  = require("should")
 
 var Grib2   = require("../lib/grib/Grib2Wrapper.js")
-var grib2   = new Grib2(__dirname + "/data/nmm.grb2f00", "/home/hostalerye/Téléchargements/grib2/wgrib2/wgrib2")
+var grib2   = new Grib2(__dirname + "/data/nmm.grb2f00", "/root/grib2/wgrib2/wgrib2")
 
 describe("Verifying if a point is in an area", function() {
 
