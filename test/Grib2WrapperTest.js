@@ -19,7 +19,7 @@ describe("Gathering data from file", function() {
 
     it("should work", function(done) {
         this.timeout(60000)
-        grib2.getDataFromFile("/home/hostalerye/Documents/ICC/PE/grib2js/out.csv", [{lat:44.653024,lon:-1.625977}, {lat:44.933696,lon:3.164063}, {lat:42.55308,lon:3.339844}, {lat:43.325178,lon:-2.285156}], function(err, res) {
+        grib2.getDataFromFile("test/out.csv", [{lat:44.653024,lon:-1.625977}, {lat:44.933696,lon:3.164063}, {lat:42.55308,lon:3.339844}, {lat:43.325178,lon:-2.285156}], function(err, res) {
                 if(err) throw err
                 done()
             }
