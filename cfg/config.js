@@ -1,5 +1,5 @@
 var config = {}
 
-config.wgrib2 = '/root/grib2/wgrib2/wgrib2'
+config.wgrib2 = '/path/to/wgrib2'
 
 module.exports = config
