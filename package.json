@@ -1,7 +1,7 @@
 {
     "name": "grib2js",
     "description": "Node.js grib2 files reader",
-    "version": "0.0.1",
+    "version": "0.5",
     "private": false,
     "engines": {
         "node": "0.8.x",
@@ -15,9 +15,9 @@
     },
     "scripts": {
         "test": "mocha"
-    }
-    "repository" :
-	{ "type" : "git"
-	, "url" : "https://github.com/ArtemisiaSolutions/grib2js.git"
+    },
+    "repository": { 
+      "type" : "git", 
+	  "url" : "https://github.com/ArtemisiaSolutions/grib2js.git"
 	}
 }
